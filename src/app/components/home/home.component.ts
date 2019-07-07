@@ -9,7 +9,7 @@ import { NewsApiService } from "../../services/news-api.service";
 export class HomeComponent implements OnInit {
   newsList = [];
   currentCategory = "general";
-  currentCountry = "ru";
+  currentCountry = "in";
   categoryList = [
     "general",
     "business",
@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     "sports",
     "technology"
   ];
-  countryList = ["ru", "ua", "gb", "us"];
+  countryList = ["in", "ua", "gb", "us"];
   currentSource = "";
   sourceList = [];
 
